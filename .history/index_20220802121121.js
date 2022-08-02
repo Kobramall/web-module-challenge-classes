@@ -185,10 +185,10 @@ listSubjects(){
   return `Loving ${this.favSubjects}!`
 }
 PRAssignment(subject){
-  return `${this.name} has submitted a PR for ${subject}`
+  return `${student.name} has submitted a PR for ${subject}`
 }
 sprintChallenge(subject){
-  return `${this.name} has begun sprint challenge on ${subject}`
+  return `${student.name} has begun sprint challenge on ${subject}`
 }
 }
 
@@ -213,7 +213,7 @@ class ProjectManager extends Instructor {
    this.favInstructor = favInstructor;
 }
 standUp(channel){
-return `${this.name} announces to ${channel}, @channel standy times!`
+return `${name} announces to ${channel}, @channel standy times!`
 }
 debugsCode(student, subject){
   return `${this.name} debugs ${student.name}'s code on ${subject}`
